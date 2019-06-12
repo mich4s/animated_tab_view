@@ -4,5 +4,7 @@
 .packages
 .pub/
 .idea
+android/
+ios/
 
 build/
