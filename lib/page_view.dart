@@ -45,7 +45,8 @@ class PageViewState extends State<PageView>
 
   @override
   Widget build(BuildContext context) {
-    final double displayHeight = MediaQuery.of(context).size.height.toDouble() * 1.5;
+    final double displayHeight =
+        MediaQuery.of(context).size.height.toDouble() * 1.5;
     if (this.current != widget.current) {
       this.current = widget.current;
       _controller.reset();
@@ -84,10 +85,8 @@ class PageViewState extends State<PageView>
             bottom: 0,
             top: 0,
             child: CustomPaint(
-              painter: PageShapesPainter(
-                radius: circleRadius,
-                color: widget.color
-              ),
+              painter:
+                  PageShapesPainter(radius: circleRadius, color: widget.color),
             ),
           ),
         ],

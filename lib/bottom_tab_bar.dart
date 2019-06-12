@@ -20,12 +20,10 @@ class BottomTabBar extends StatefulWidget {
   }) : super(key: key);
 
   @override
-  BottomTabBarState createState() =>
-      BottomTabBarState();
+  BottomTabBarState createState() => BottomTabBarState();
 }
 
-class BottomTabBarState
-    extends State<BottomTabBar>
+class BottomTabBarState extends State<BottomTabBar>
     with SingleTickerProviderStateMixin {
   Animation<double> animation;
   AnimationController _controller;

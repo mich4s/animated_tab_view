@@ -1,8 +1,8 @@
 name: animated_tab_view
-description: A new flutter plugin project.
+description: This is small package to create easy nice animated tab bar for small projects. You can change it's default colors.
 version: 0.0.1
 author: Michał Poreda <michal.poreda94@gmail.com>
-homepage:
+homepage: https://github.com/mich4s/animated_tab_view
 
 environment:
   sdk: ">=2.1.0 <3.0.0"
